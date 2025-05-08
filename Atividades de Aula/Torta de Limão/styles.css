@@ -1,0 +1,75 @@
+body {
+  background-color: #ffffc4;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 50px;
+  color: #333;
+  background-image: url("./torta_limao_backS.png"),
+    url("./torta_limao_backI.png");
+  background-repeat: repeat-x, repeat-x; /* Repete a imagem na horizontal */
+  background-position: top, bottom; /* Define a posição no topo e na base */
+}
+
+.box {
+  padding: 0;
+}
+
+.titulo {
+  background-color: #fe9b00; /* Garante que não tenha espaço entre .titulo e .container */
+  padding: 5px 20px; /* Mantém um espaçamento interno adequado */
+  text-align: center;
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+h1 {
+  padding: 10px;
+  text-align: center;
+  color: #fe9b00;
+  margin-bottom: 10px; /* Pequeno espaço abaixo do título */
+}
+
+h2 {
+  color: white;
+  margin: 0; /* Garante que não tenha espaço extra */
+}
+
+.container {
+  max-width: 700px;
+  background: #dbff82;
+  margin: 0 auto; /* Remove espaço extra no topo */
+  border-radius: 0 0 30px 30px;
+  padding: 20px; /* Mantém espaçamento interno */
+}
+
+.massa {
+  font-weight: bold;
+  font-size: 20px;
+  padding: 0 20px;
+  margin-top: 20px;
+  list-style-image: url("./torta_limao_item1.gif");
+}
+
+ul {
+}
+
+.ingredientes {
+  font-weight: bold;
+  margin-top: 10px;
+  list-style-image: url("./torta_limao_item2.gif");
+}
+
+.preparo {
+  font-weight: bold;
+  margin-top: 10px;
+  list-style-image: url("./torta_limao_item2.gif");
+}
+
+.item {
+  list-style-image: url("./torta_limao_item3.gif");
+}
+li {
+  margin: 5px 0;
+  padding-left: 15px;
+  position: relative;
+}

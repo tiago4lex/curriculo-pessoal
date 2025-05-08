@@ -1,0 +1,44 @@
+body {
+  background-image: url(./cabecalhos_back.png); /* Caminho da imagem */
+  background-repeat: repeat; /* Repete a imagem em mosaico */
+  background-size: auto; /* Mantém o tamanho original da imagem */
+  background-position: top left; /* Começa do canto superior esquerdo */
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+    background-color: #fff6d8;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    display: inline-block;
+    padding: 10px 20px;
+    border-radius: 10px;
+}
+
+h1, h2 {
+    color: #8f6800;
+    font-weight: bold;
+    padding: 10px;
+}
+
+h3 {
+    background-color: #d38d00;
+    color:white;
+    padding: 3px 15px;
+    font-weight: bold;
+}
+
+hr {
+    border: none;
+    border-top: 5px dashed #d38d00;
+    margin: 20px 0;
+  }
+
+  p {
+    text-align: justify;
+    text-indent: 30px;
+    margin: 10px 0;
+    padding: 10px;
+  }

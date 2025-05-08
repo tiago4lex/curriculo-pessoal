@@ -1,0 +1,106 @@
+body{
+    /* width: 1000px; */
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+header{
+   text-align: center;
+}
+
+header figure{
+    margin-bottom: -20px;   
+}
+
+main{
+    width: 600px;
+    text-align: justify;
+    float: left;
+}
+
+h1{
+    background-color: black;
+    color: white;
+    border-bottom: 10px solid #C4D7A2;
+}
+
+main h2{
+    border-bottom: 2px solid black;
+    font-size: 30px;
+}
+
+main h3{
+    float: right;
+    font-size: 15px;
+    margin-top: -25px;
+}
+
+main em{
+    font-size: large;
+}
+
+nav{
+    float: left;
+    width: 150px;  
+    min-height: 600px;
+    margin-right: 10px;
+}
+
+nav li{
+    border-top: 1px solid black;
+    list-style: none;
+    padding: 5px;   
+    margin-left: -25px;
+}
+
+nav li:nth-child(5){
+    border-bottom: 1px solid black;
+}
+
+nav a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    margin-left: 10px;
+}
+
+main img{
+    float: left;
+    margin: 20px 15px 15px 0;
+}
+
+aside{
+    float: right;
+    width: 150px;
+}
+
+aside h2{
+    font-size: 30px;
+    border-bottom: 1px solid #D6DAA1;
+}
+
+aside h3{
+    color: #D6DAA1;
+    text-align: right;
+    margin-top: none;
+    margin-top: -25px;
+}
+
+aside a{
+    color: red;
+    float: right;
+    text-decoration: none;
+}
+
+
+footer{
+    background-color: black;
+    color: white;
+    border-top: 10px solid #C4D7A2;
+    text-align: center;
+    clear: both;
+    font-weight: bold;
+    font-size: 20px;
+    padding: 2px;
+}
