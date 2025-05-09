@@ -1,0 +1,20 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1{
+    color: #754f31;
+    border-top: #754f31 solid 4px;
+    border-bottom: #754f31 solid 4px;
+}
+
+h2{
+    background-color:#754f31;
+    color: white;
+    padding: 2px;
+}
+
+img{
+    padding: 15px;
+    border: #754f31 solid 5px;
+}

@@ -1,0 +1,37 @@
+body{
+    font-family: Arial, Helvetica, sans-serif
+ }
+ 
+ img{
+    float: left;
+ }
+ 
+ h1{
+    color: purple;
+    border-bottom: 3px solid purple;
+    text-align: right;
+    margin-right: 20%;
+ }
+ 
+ fieldset{
+    border: solid #fcc;
+    margin-right: 20%;
+ }
+ 
+ input, textarea{
+    border: none;
+    background-color: #fcc;
+    width: 800px;
+    margin: 10px;
+ }
+ 
+ input[type="submit"]{
+    width: 150px;
+    margin-left: 10%;
+    margin-top: 5px;;
+ }
+ 
+ label{
+    display: inline-block;
+    width: 80px;
+ }

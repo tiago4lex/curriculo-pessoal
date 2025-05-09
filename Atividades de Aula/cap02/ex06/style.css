@@ -1,0 +1,35 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+    width: 40%;
+    margin: auto;
+    padding: 20px;
+}
+
+table, th, td{
+    border: solid thin;
+    border-collapse: collapse;
+}
+
+table{
+    width: 100%;
+}
+
+th{
+    background-color: #01316a;
+    color: white;
+    padding: 10px;
+}
+
+td{
+    border-color: #01316a;
+}
+
+tfoot td{
+    color: white;
+    background-color: #01316a;  
+    padding: 20px;
+    font-size: 1.5em;
+}

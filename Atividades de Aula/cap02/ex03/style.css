@@ -1,0 +1,33 @@
+h2{
+    background-color: lightblue;
+ }
+ 
+ .clicavel{
+    color: lightblue;
+ }
+ a:link{
+    text-decoration: none;
+    font-weight: bold;
+    color: #004552;
+ }
+ a:hover{
+    color: #ffa700;
+ }
+ a:visited{
+    color: #c9e0e5;
+ }
+ 
+ hr{
+    background-color: rgb(95, 179, 207);
+    height: 5px;
+    border: none;
+ }
+ 
+ img{
+    padding: 3px;
+    display: auto ;
+ }
+ 
+ img:hover{
+    border: solid #ffa700 3px;
+ }
