@@ -1,0 +1,42 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+    width: 90%;
+    max-width: 1000px;
+    margin: auto;
+}
+
+h1 {
+    margin: 25px 0 0;
+}
+
+.telaGd {
+    display: block;
+}
+
+.telaMd, .telaPq {
+    display: none;
+}
+
+.article {
+    width: 30%;
+    float: left;
+    padding: 15px;
+}
+
+.article img {
+    max-width: 100%;
+}
+
+img {
+    height: 200px;
+    width: 350px;
+    padding-bottom: 30px;
+}
+
+h2 {
+    padding-bottom: 20px;
+}
